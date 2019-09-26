@@ -1,0 +1,46 @@
+html, body {
+    font-family: "Arial Verdana", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: hsl(4, 90%, 70%);
+}
+.loginform {
+    display: block;
+    border: 3px solid silver;
+    text-align: left;
+    margin: 200px auto auto auto;
+    padding: 20px;
+    width: 25%;
+    height: 25%;
+    background-color: #DCDCDC;
+    border-radius: 4px;
+}
+.questionaryform{
+    display: block;
+    border: 3px solid silver;
+    text-align: left;
+    margin: 200px auto auto auto;
+    padding: 20px;
+    width: 25%;
+    height: 25%;
+    background-color: #DCDCDC;
+    border-radius: 4px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #3cb371;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
