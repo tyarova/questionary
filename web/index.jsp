@@ -8,9 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Prog.kiev.ua</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-  $END$
+  <form class="statistic">
+    <p>You have answered:</p>
+
+  </form>
   </body>
 </html>

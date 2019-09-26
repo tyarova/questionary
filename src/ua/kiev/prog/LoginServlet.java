@@ -18,9 +18,10 @@ public class LoginServlet extends HttpServlet {
         if (LOGIN.equals(login) && PASS.equals(password)) {
             HttpSession session = request.getSession(true);
             session.setAttribute("user_login", login);
+            response.sendRedirect("questions.html");
+        } else {
+            response.sendRedirect("index.html");
         }
-
-        response.sendRedirect("questions.html");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
